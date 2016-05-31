@@ -65,7 +65,15 @@ include("counter.php");
     <div class="about-myself">
         <div class="container">
             <h2>ReadMe</h2>
-            <p>I imagine that the backstory behind my pursuits to enter the technology field is shared by a multitude of fellow "tech-enthusiasts".  Like any geek these days, I started out being a little too interested in my Xbox. I became very intrigued by the mysteries of what was powering my childhood passion.  With a crazy imagination, I would tinker around with my videogame controllers and other electronics that I had, albeit some of them unfortutely didn't make it through my experiments...R.I.P.  At the encouragement of a couple of high school teachers, I chose to enroll in the Computer Engineering program at the esteemed University of Illinois at Urbana-Champaign.  At U of I, I took my first two programming classes, and after that, I fell in love with programming languages.  From that point on, it has been a very fun journey to keep expanding my horizons in order to become a great software engineer.</p>
+            <p>I imagine that the backstory behind my pursuits to enter the technology field is shared by a multitude 
+                of fellow "tech-enthusiasts".  Like any geek these days, I started out being a little too interested in 
+                my Xbox. I became very intrigued by the mysteries of what was powering my childhood passion.  With a crazy 
+                imagination, I would tinker around with my videogame controllers and other electronics that I had, albeit 
+                some of them unfortutely didn't make it through my experiments...R.I.P.  At the encouragement of a couple 
+                of high school teachers, I chose to enroll in the Computer Engineering program at the esteemed University 
+                of Illinois at Urbana-Champaign.  At U of I, I took my first two programming classes, and after that, I 
+                took a great interest in programming languages.  From that point on, it has been a very fun journey to keep
+                expanding my horizons in order to become a great software engineer.</p>
         </div>
     </div>
 

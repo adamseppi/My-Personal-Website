@@ -71,10 +71,10 @@ include("counter.php");
                             <?php if(empty($success)): ?>
                             <div class="row" style="padding-top: 15px">
                                 <div class="test">
-                                    <div class="col-xs-1 col-xs-offset-3">
+                                    <div class="col-xs-1 col-xs-offset-2">
                                         <label class="control-label">Name</label>
                                     </div>
-                                    <div class="col-xs-6" style="padding-left: 50px">
+                                    <div class="col-xs-7" style="padding-left: 50px">
                                         <input id="form_name" type="text" name="name" class="form-control" placeholder="First and Last Name" autocomplete="off" <?php echo isset($fields['name']) ? 'value="'. e($fields['name']) .'"' : '' ?>>
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -84,10 +84,10 @@ include("counter.php");
 
                             <div class="row">
                                 <div class="test">
-                                    <div class="col-xs-1 col-xs-offset-3">
+                                    <div class="col-xs-1 col-xs-offset-2">
                                         <label class="control-label">Email</label>
                                     </div>
-                                    <div class="col-xs-6" style="padding-left: 50px">
+                                    <div class="col-xs-7" style="padding-left: 50px">
                                         <input id="form_email" type="email" name="email" class="form-control" placeholder="example@domain.com" autocomplete="off" <?php echo isset($fields['email']) ? 'value="'. e($fields['email']) .'"' : '' ?>>
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -97,10 +97,10 @@ include("counter.php");
 
                             <div class="row">
                                 <div class="test">
-                                    <div class="col-xs-1 col-xs-offset-3">
+                                    <div class="col-xs-1 col-xs-offset-2">
                                         <label class="form_subject">Subject</label>
                                     </div>
-                                    <div class="col-xs-6" style="padding-left: 50px">
+                                    <div class="col-xs-7" style="padding-left: 50px">
                                         <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Whatcha wanna talk about?" autocomplete="off" <?php echo isset($fields['subject']) ? 'value="'. e($fields['subject']) .'"' : '' ?>>
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -110,10 +110,10 @@ include("counter.php");
 
                             <div class="row">
                                 <div class="test">
-                                    <div class="col-xs-1 col-xs-offset-3">
+                                    <div class="col-xs-1 col-xs-offset-2">
                                         <label class="form_message">Message</label>
                                     </div>
-                                    <div class="col-xs-6" style="padding-left: 50px; padding-bottom: 10px">
+                                    <div class="col-xs-7" style="padding-left: 50px; padding-bottom: 10px">
                                         <textarea id="form_message" type="text" name="message" class="form-control" placeholder="Your message..." rows="4" data-error="required" autocomplete="off"><?php echo isset($fields['message']) ? e($fields['message']) : '' ?></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -141,7 +141,7 @@ include("counter.php");
                             <div class="row">
                                 <div class="test">
                                     <div class="col-xs-2 col-xs-offset-5">
-                                        <input type="submit" class="btn btn-success btn-send" value="Send Message">
+                                        <input type="submit" class="btn btn-success btn-send" style="margin-bottom: 50px" value="Send Message">
                                     </div>
                                 </div>
                             </div>

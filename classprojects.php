@@ -17,7 +17,7 @@ include("counter.php");
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="projects.css">
     </head>
 <body>
 
@@ -55,14 +55,14 @@ include("counter.php");
     </nav>
 
     <div class="container">
-        <h1>My Class Projects</h1>
+        <h1 style="font-size: 48px; padding-top: 50px; padding-bottom: 50px">My Class Projects</h1>
     </div>
 
 
     <div class="footer">
-    <div class="container" style="text-align: center">
-        <p style="font-size: 12px; color: #696969; padding-top: 12px"> Developed by <a href="home.php" style="color: #696969; font-style: italic">Adam Seppi</a></p>
-    </div>
+        <div class="container" style="text-align: center">
+            <p style="font-size: 12px; color: #696969; padding-top: 12px"> Developed by <a href="home.php" style="color: #696969; font-style: italic">Adam Seppi</a></p>
+        </div>
     </div>
 
 </body>
